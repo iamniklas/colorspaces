@@ -1,0 +1,361 @@
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.001000 -- Actual: 0.001000
+7Loop-Count: 2 -- Expect: 0.008000 -- Actual: 0.008000
+7Loop-Count: 3 -- Expect: 0.027000 -- Actual: 0.027000
+7Loop-Count: 4 -- Expect: 0.064000 -- Actual: 0.064000
+7Loop-Count: 5 -- Expect: 0.125000 -- Actual: 0.125000
+7Loop-Count: 6 -- Expect: 0.216000 -- Actual: 0.216000
+7Loop-Count: 7 -- Expect: 0.343000 -- Actual: 0.343000
+7Loop-Count: 8 -- Expect: 0.512000 -- Actual: 0.512000
+7Loop-Count: 9 -- Expect: 0.729000 -- Actual: 0.729000
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.000100 -- Actual: 0.000100
+7Loop-Count: 2 -- Expect: 0.001600 -- Actual: 0.001600
+7Loop-Count: 3 -- Expect: 0.008100 -- Actual: 0.008100
+7Loop-Count: 4 -- Expect: 0.025600 -- Actual: 0.025600
+7Loop-Count: 5 -- Expect: 0.062500 -- Actual: 0.062500
+7Loop-Count: 6 -- Expect: 0.129600 -- Actual: 0.129600
+7Loop-Count: 7 -- Expect: 0.240100 -- Actual: 0.240100
+7Loop-Count: 8 -- Expect: 0.409600 -- Actual: 0.409600
+7Loop-Count: 9 -- Expect: 0.656100 -- Actual: 0.656100
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.000010 -- Actual: 0.000010
+7Loop-Count: 2 -- Expect: 0.000320 -- Actual: 0.000320
+7Loop-Count: 3 -- Expect: 0.002430 -- Actual: 0.002430
+7Loop-Count: 4 -- Expect: 0.010240 -- Actual: 0.010240
+7Loop-Count: 5 -- Expect: 0.031250 -- Actual: 0.031250
+7Loop-Count: 6 -- Expect: 0.077760 -- Actual: 0.077760
+7Loop-Count: 7 -- Expect: 0.168070 -- Actual: 0.168070
+7Loop-Count: 8 -- Expect: 0.327680 -- Actual: 0.327680
+7Loop-Count: 9 -- Expect: 0.590490 -- Actual: 0.590490
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 1.250000 -- Actual: 1.250000
+7Loop-Count: 2 -- Expect: 1.125000 -- Actual: 1.125000
+7Loop-Count: 3 -- Expect: 0.875000 -- Actual: 0.875000
+7Loop-Count: 4 -- Expect: 1.031250 -- Actual: 1.031250
+7Loop-Count: 5 -- Expect: 1.015625 -- Actual: 1.015625
+7Loop-Count: 6 -- Expect: 0.984375 -- Actual: 0.984375
+7Loop-Count: 7 -- Expect: 1.003906 -- Actual: 1.003906
+7Loop-Count: 8 -- Expect: 1.001953 -- Actual: 1.001953
+7Loop-Count: 9 -- Expect: 0.998047 -- Actual: 0.998047
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.001953 -- Actual: 0.001953
+9Loop-Count: 2 -- Expect: -0.001953 -- Actual: -0.001953
+9Loop-Count: 3 -- Expect: -0.003906 -- Actual: -0.003906
+7Loop-Count: 4 -- Expect: 0.015625 -- Actual: 0.015625
+9Loop-Count: 5 -- Expect: -0.015625 -- Actual: -0.015625
+9Loop-Count: 6 -- Expect: -0.031250 -- Actual: -0.031250
+7Loop-Count: 7 -- Expect: 0.125000 -- Actual: 0.125000
+9Loop-Count: 8 -- Expect: -0.125000 -- Actual: -0.125000
+9Loop-Count: 9 -- Expect: -0.250000 -- Actual: -0.250000
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.011875 -- Actual: 0.011875
+7Loop-Count: 2 -- Expect: 0.060000 -- Actual: 0.060000
+9Loop-Count: 3 -- Expect: -0.605625 -- Actual: -0.605625
+9Loop-Count: 4 -- Expect: -0.172500 -- Actual: -0.172500
+7Loop-Count: 5 -- Expect: 0.109375 -- Actual: 0.109375
+7Loop-Count: 6 -- Expect: 0.240000 -- Actual: 0.240000
+7Loop-Count: 7 -- Expect: 0.319375 -- Actual: 0.319375
+7Loop-Count: 8 -- Expect: 0.697500 -- Actual: 0.697500
+7Loop-Count: 9 -- Expect: 0.924375 -- Actual: 0.924375
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.000339 -- Actual: 0.000339
+9Loop-Count: 2 -- Expect: -0.003906 -- Actual: -0.003906
+7Loop-Count: 3 -- Expect: 0.023939 -- Actual: 0.023939
+9Loop-Count: 4 -- Expect: -0.117462 -- Actual: -0.117462
+7Loop-Count: 5 -- Expect: 0.500000 -- Actual: 0.500000
+7Loop-Count: 6 -- Expect: 1.117462 -- Actual: 1.117462
+7Loop-Count: 7 -- Expect: 0.976061 -- Actual: 0.976061
+7Loop-Count: 8 -- Expect: 1.003906 -- Actual: 1.003906
+7Loop-Count: 9 -- Expect: 0.999661 -- Actual: 0.999661
+	8Loop-Count: 0 -- Expect: 0.000000 -- Actual: -0.000000
+	9Loop-Count: 1 -- Expect: -0.037519 -- Actual: -0.037519
+	9Loop-Count: 2 -- Expect: -0.092556 -- Actual: -0.092556
+	9Loop-Count: 3 -- Expect: -0.078833 -- Actual: -0.078833
+	7Loop-Count: 4 -- Expect: 0.089926 -- Actual: 0.089926
+	7Loop-Count: 5 -- Expect: 0.500000 -- Actual: 0.500000
+	7Loop-Count: 6 -- Expect: 0.910074 -- Actual: 0.910074
+	7Loop-Count: 7 -- Expect: 1.078833 -- Actual: 1.078833
+	7Loop-Count: 8 -- Expect: 1.092556 -- Actual: 1.092556
+	7Loop-Count: 9 -- Expect: 1.037519 -- Actual: 1.037519
+	8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+
+7Loop-Count: 1 -- Expect: 0.010102 -- Actual: 0.010102
+
+7Loop-Count: 2 -- Expect: 0.041742 -- Actual: 0.041742
+
+7Loop-Count: 3 -- Expect: 0.100000 -- Actual: 0.100000
+
+7Loop-Count: 4 -- Expect: 0.200000 -- Actual: 0.200000
+
+7Loop-Count: 5 -- Expect: 0.500000 -- Actual: 0.500000
+
+7Loop-Count: 6 -- Expect: 0.800000 -- Actual: 0.800000
+
+7Loop-Count: 7 -- Expect: 0.900000 -- Actual: 0.900000
+
+7Loop-Count: 8 -- Expect: 0.958258 -- Actual: 0.958258
+
+7Loop-Count: 9 -- Expect: 0.989898 -- Actual: 0.989898
+
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.001953 -- Actual: 0.001953
+7Loop-Count: 2 -- Expect: 0.007813 -- Actual: 0.007813
+7Loop-Count: 3 -- Expect: 0.031250 -- Actual: 0.031250
+7Loop-Count: 4 -- Expect: 0.125000 -- Actual: 0.125000
+7Loop-Count: 5 -- Expect: 0.500000 -- Actual: 0.500000
+7Loop-Count: 6 -- Expect: 0.875000 -- Actual: 0.875000
+7Loop-Count: 7 -- Expect: 0.968750 -- Actual: 0.968750
+7Loop-Count: 8 -- Expect: 0.992188 -- Actual: 0.992188
+7Loop-Count: 9 -- Expect: 0.998047 -- Actual: 0.998047
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.020000 -- Actual: 0.020000
+7Loop-Count: 2 -- Expect: 0.080000 -- Actual: 0.080000
+7Loop-Count: 3 -- Expect: 0.180000 -- Actual: 0.180000
+7Loop-Count: 4 -- Expect: 0.320000 -- Actual: 0.320000
+7Loop-Count: 5 -- Expect: 0.500000 -- Actual: 0.500000
+7Loop-Count: 6 -- Expect: 0.680000 -- Actual: 0.680000
+7Loop-Count: 7 -- Expect: 0.820000 -- Actual: 0.820000
+7Loop-Count: 8 -- Expect: 0.920000 -- Actual: 0.920000
+7Loop-Count: 9 -- Expect: 0.980000 -- Actual: 0.980000
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+8Loop-Count: 0 -- Expect: 0.000000 -- Actual: -0.000000
+7Loop-Count: 1 -- Expect: 0.024472 -- Actual: 0.024472
+7Loop-Count: 2 -- Expect: 0.095492 -- Actual: 0.095492
+7Loop-Count: 3 -- Expect: 0.206107 -- Actual: 0.206107
+7Loop-Count: 4 -- Expect: 0.345491 -- Actual: 0.345491
+7Loop-Count: 5 -- Expect: 0.500000 -- Actual: 0.500000
+7Loop-Count: 6 -- Expect: 0.654508 -- Actual: 0.654509
+7Loop-Count: 7 -- Expect: 0.793893 -- Actual: 0.793893
+7Loop-Count: 8 -- Expect: 0.904508 -- Actual: 0.904509
+7Loop-Count: 9 -- Expect: 0.975528 -- Actual: 0.975528
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.004000 -- Actual: 0.004000
+7Loop-Count: 2 -- Expect: 0.032000 -- Actual: 0.032000
+7Loop-Count: 3 -- Expect: 0.108000 -- Actual: 0.108000
+7Loop-Count: 4 -- Expect: 0.256000 -- Actual: 0.256000
+7Loop-Count: 5 -- Expect: 0.500000 -- Actual: 0.500000
+7Loop-Count: 6 -- Expect: 0.744000 -- Actual: 0.744000
+7Loop-Count: 7 -- Expect: 0.892000 -- Actual: 0.892000
+7Loop-Count: 8 -- Expect: 0.968000 -- Actual: 0.968000
+7Loop-Count: 9 -- Expect: 0.996000 -- Actual: 0.996000
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.000800 -- Actual: 0.000800
+7Loop-Count: 2 -- Expect: 0.012800 -- Actual: 0.012800
+7Loop-Count: 3 -- Expect: 0.064800 -- Actual: 0.064800
+7Loop-Count: 4 -- Expect: 0.204800 -- Actual: 0.204800
+7Loop-Count: 5 -- Expect: 0.500000 -- Actual: 0.500000
+7Loop-Count: 6 -- Expect: 0.795200 -- Actual: 0.795200
+7Loop-Count: 7 -- Expect: 0.935200 -- Actual: 0.935200
+7Loop-Count: 8 -- Expect: 0.987200 -- Actual: 0.987200
+7Loop-Count: 9 -- Expect: 0.999200 -- Actual: 0.999200
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.000160 -- Actual: 0.000160
+7Loop-Count: 2 -- Expect: 0.005120 -- Actual: 0.005120
+7Loop-Count: 3 -- Expect: 0.038880 -- Actual: 0.038880
+7Loop-Count: 4 -- Expect: 0.163840 -- Actual: 0.163840
+7Loop-Count: 5 -- Expect: 0.500000 -- Actual: 0.500000
+7Loop-Count: 6 -- Expect: 0.836160 -- Actual: 0.836160
+7Loop-Count: 7 -- Expect: 0.961120 -- Actual: 0.961120
+7Loop-Count: 8 -- Expect: 0.994880 -- Actual: 0.994880
+7Loop-Count: 9 -- Expect: 0.999840 -- Actual: 0.999840
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.408828 -- Actual: 0.408828
+7Loop-Count: 2 -- Expect: 0.705802 -- Actual: 0.705802
+7Loop-Count: 3 -- Expect: 0.907132 -- Actual: 0.907132
+7Loop-Count: 4 -- Expect: 1.029027 -- Actual: 1.029027
+7Loop-Count: 5 -- Expect: 1.087698 -- Actual: 1.087698
+7Loop-Count: 6 -- Expect: 1.099352 -- Actual: 1.099352
+7Loop-Count: 7 -- Expect: 1.080200 -- Actual: 1.080200
+7Loop-Count: 8 -- Expect: 1.046451 -- Actual: 1.046451
+7Loop-Count: 9 -- Expect: 1.014314 -- Actual: 1.014314
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.435890 -- Actual: 0.435890
+7Loop-Count: 2 -- Expect: 0.600000 -- Actual: 0.600000
+7Loop-Count: 3 -- Expect: 0.714143 -- Actual: 0.714143
+7Loop-Count: 4 -- Expect: 0.800000 -- Actual: 0.800000
+7Loop-Count: 5 -- Expect: 0.866025 -- Actual: 0.866025
+7Loop-Count: 6 -- Expect: 0.916515 -- Actual: 0.916515
+7Loop-Count: 7 -- Expect: 0.953939 -- Actual: 0.953939
+7Loop-Count: 8 -- Expect: 0.979796 -- Actual: 0.979796
+7Loop-Count: 9 -- Expect: 0.994987 -- Actual: 0.994987
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.500000 -- Actual: 0.500000
+7Loop-Count: 2 -- Expect: 0.750000 -- Actual: 0.750000
+7Loop-Count: 3 -- Expect: 0.875000 -- Actual: 0.875000
+7Loop-Count: 4 -- Expect: 0.937500 -- Actual: 0.937500
+7Loop-Count: 5 -- Expect: 0.968750 -- Actual: 0.968750
+7Loop-Count: 6 -- Expect: 0.984375 -- Actual: 0.984375
+7Loop-Count: 7 -- Expect: 0.992188 -- Actual: 0.992188
+7Loop-Count: 8 -- Expect: 0.996094 -- Actual: 0.996094
+7Loop-Count: 9 -- Expect: 0.998047 -- Actual: 0.998047
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.190000 -- Actual: 0.190000
+7Loop-Count: 2 -- Expect: 0.360000 -- Actual: 0.360000
+7Loop-Count: 3 -- Expect: 0.510000 -- Actual: 0.510000
+7Loop-Count: 4 -- Expect: 0.640000 -- Actual: 0.640000
+7Loop-Count: 5 -- Expect: 0.750000 -- Actual: 0.750000
+7Loop-Count: 6 -- Expect: 0.840000 -- Actual: 0.840000
+7Loop-Count: 7 -- Expect: 0.910000 -- Actual: 0.910000
+7Loop-Count: 8 -- Expect: 0.960000 -- Actual: 0.960000
+7Loop-Count: 9 -- Expect: 0.990000 -- Actual: 0.990000
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.156434 -- Actual: 0.156434
+7Loop-Count: 2 -- Expect: 0.309017 -- Actual: 0.309017
+7Loop-Count: 3 -- Expect: 0.453990 -- Actual: 0.453991
+7Loop-Count: 4 -- Expect: 0.587785 -- Actual: 0.587785
+7Loop-Count: 5 -- Expect: 0.707107 -- Actual: 0.707107
+7Loop-Count: 6 -- Expect: 0.809017 -- Actual: 0.809017
+7Loop-Count: 7 -- Expect: 0.891007 -- Actual: 0.891007
+7Loop-Count: 8 -- Expect: 0.951057 -- Actual: 0.951057
+7Loop-Count: 9 -- Expect: 0.987688 -- Actual: 0.987688
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.271000 -- Actual: 0.271000
+7Loop-Count: 2 -- Expect: 0.488000 -- Actual: 0.488000
+7Loop-Count: 3 -- Expect: 0.657000 -- Actual: 0.657000
+7Loop-Count: 4 -- Expect: 0.784000 -- Actual: 0.784000
+7Loop-Count: 5 -- Expect: 0.875000 -- Actual: 0.875000
+7Loop-Count: 6 -- Expect: 0.936000 -- Actual: 0.936000
+7Loop-Count: 7 -- Expect: 0.973000 -- Actual: 0.973000
+7Loop-Count: 8 -- Expect: 0.992000 -- Actual: 0.992000
+7Loop-Count: 9 -- Expect: 0.999000 -- Actual: 0.999000
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.343900 -- Actual: 0.343900
+7Loop-Count: 2 -- Expect: 0.590400 -- Actual: 0.590400
+7Loop-Count: 3 -- Expect: 0.759900 -- Actual: 0.759900
+7Loop-Count: 4 -- Expect: 0.870400 -- Actual: 0.870400
+7Loop-Count: 5 -- Expect: 0.937500 -- Actual: 0.937500
+7Loop-Count: 6 -- Expect: 0.974400 -- Actual: 0.974400
+7Loop-Count: 7 -- Expect: 0.991900 -- Actual: 0.991900
+7Loop-Count: 8 -- Expect: 0.998400 -- Actual: 0.998400
+7Loop-Count: 9 -- Expect: 0.999900 -- Actual: 0.999900
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.409510 -- Actual: 0.409510
+7Loop-Count: 2 -- Expect: 0.672320 -- Actual: 0.672320
+7Loop-Count: 3 -- Expect: 0.831930 -- Actual: 0.831930
+7Loop-Count: 4 -- Expect: 0.922240 -- Actual: 0.922240
+7Loop-Count: 5 -- Expect: 0.968750 -- Actual: 0.968750
+7Loop-Count: 6 -- Expect: 0.989760 -- Actual: 0.989760
+7Loop-Count: 7 -- Expect: 0.997570 -- Actual: 0.997570
+7Loop-Count: 8 -- Expect: 0.999680 -- Actual: 0.999680
+7Loop-Count: 9 -- Expect: 0.999990 -- Actual: 0.999990
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+0.0
+0.030000001
+-0.08625001
+0.120000005
+	0.34875
+0.5
+0.65125006
+0.88
+1.0862501
+0.97
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.030000 -- Actual: 0.030000
+9Loop-Count: 2 -- Expect: -0.086250 -- Actual: -0.086250
+7Loop-Count: 3 -- Expect: 0.120000 -- Actual: 0.120000
+7Loop-Count: 4 -- Expect: 0.348750 -- Actual: 0.348750
+7Loop-Count: 5 -- Expect: 0.500000 -- Actual: 0.500000
+7Loop-Count: 6 -- Expect: 0.651250 -- Actual: 0.651250
+7Loop-Count: 7 -- Expect: 0.880000 -- Actual: 0.880000
+7Loop-Count: 8 -- Expect: 1.086250 -- Actual: 1.086250
+7Loop-Count: 9 -- Expect: 0.970000 -- Actual: 0.970000
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.100000 -- Actual: 0.100000
+7Loop-Count: 2 -- Expect: 0.200000 -- Actual: 0.200000
+7Loop-Count: 3 -- Expect: 0.300000 -- Actual: 0.300000
+7Loop-Count: 4 -- Expect: 0.400000 -- Actual: 0.400000
+7Loop-Count: 5 -- Expect: 0.500000 -- Actual: 0.500000
+7Loop-Count: 6 -- Expect: 0.600000 -- Actual: 0.600000
+7Loop-Count: 7 -- Expect: 0.700000 -- Actual: 0.700000
+7Loop-Count: 8 -- Expect: 0.800000 -- Actual: 0.800000
+7Loop-Count: 9 -- Expect: 0.900000 -- Actual: 0.900000
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.075625 -- Actual: 0.075625
+7Loop-Count: 2 -- Expect: 0.302500 -- Actual: 0.302500
+7Loop-Count: 3 -- Expect: 0.680625 -- Actual: 0.680625
+7Loop-Count: 4 -- Expect: 0.760000 -- Actual: 0.760000
+7Loop-Count: 5 -- Expect: 0.890625 -- Actual: 0.890625
+7Loop-Count: 6 -- Expect: 1.172500 -- Actual: 1.172500
+7Loop-Count: 7 -- Expect: 1.605625 -- Actual: 1.605625
+7Loop-Count: 8 -- Expect: 0.940000 -- Actual: 0.940000
+7Loop-Count: 9 -- Expect: 0.988125 -- Actual: 0.988125
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+9Loop-Count: 1 -- Expect: -0.014314 -- Actual: -0.014314
+9Loop-Count: 2 -- Expect: -0.046451 -- Actual: -0.046451
+9Loop-Count: 3 -- Expect: -0.080200 -- Actual: -0.080200
+9Loop-Count: 4 -- Expect: -0.099352 -- Actual: -0.099352
+9Loop-Count: 5 -- Expect: -0.087697 -- Actual: -0.087698
+9Loop-Count: 6 -- Expect: -0.029028 -- Actual: -0.029028
+7Loop-Count: 7 -- Expect: 0.092868 -- Actual: 0.092868
+7Loop-Count: 8 -- Expect: 0.294198 -- Actual: 0.294198
+7Loop-Count: 9 -- Expect: 0.591172 -- Actual: 0.591172
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.005013 -- Actual: 0.005013
+7Loop-Count: 2 -- Expect: 0.020204 -- Actual: 0.020204
+7Loop-Count: 3 -- Expect: 0.046061 -- Actual: 0.046061
+7Loop-Count: 4 -- Expect: 0.083485 -- Actual: 0.083485
+7Loop-Count: 5 -- Expect: 0.133975 -- Actual: 0.133975
+7Loop-Count: 6 -- Expect: 0.200000 -- Actual: 0.200000
+7Loop-Count: 7 -- Expect: 0.285857 -- Actual: 0.285857
+7Loop-Count: 8 -- Expect: 0.400000 -- Actual: 0.400000
+7Loop-Count: 9 -- Expect: 0.564110 -- Actual: 0.564110
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.001953 -- Actual: 0.001953
+7Loop-Count: 2 -- Expect: 0.003906 -- Actual: 0.003906
+7Loop-Count: 3 -- Expect: 0.007813 -- Actual: 0.007813
+7Loop-Count: 4 -- Expect: 0.015625 -- Actual: 0.015625
+7Loop-Count: 5 -- Expect: 0.031250 -- Actual: 0.031250
+7Loop-Count: 6 -- Expect: 0.062500 -- Actual: 0.062500
+7Loop-Count: 7 -- Expect: 0.125000 -- Actual: 0.125000
+7Loop-Count: 8 -- Expect: 0.250000 -- Actual: 0.250000
+7Loop-Count: 9 -- Expect: 0.500000 -- Actual: 0.500000
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+7Loop-Count: 1 -- Expect: 0.010000 -- Actual: 0.010000
+7Loop-Count: 2 -- Expect: 0.040000 -- Actual: 0.040000
+7Loop-Count: 3 -- Expect: 0.090000 -- Actual: 0.090000
+7Loop-Count: 4 -- Expect: 0.160000 -- Actual: 0.160000
+7Loop-Count: 5 -- Expect: 0.250000 -- Actual: 0.250000
+7Loop-Count: 6 -- Expect: 0.360000 -- Actual: 0.360000
+7Loop-Count: 7 -- Expect: 0.490000 -- Actual: 0.490000
+7Loop-Count: 8 -- Expect: 0.640000 -- Actual: 0.640000
+7Loop-Count: 9 -- Expect: 0.810000 -- Actual: 0.810000
+8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
+ 7Loop-Count: 0 -- Expect: 0.000000 -- Actual: 0.000000
+ 7Loop-Count: 1 -- Expect: 0.012312 -- Actual: 0.012312
+ 7Loop-Count: 2 -- Expect: 0.048943 -- Actual: 0.048943
+ 7Loop-Count: 3 -- Expect: 0.108993 -- Actual: 0.108993
+ 7Loop-Count: 4 -- Expect: 0.190983 -- Actual: 0.190983
+ 7Loop-Count: 5 -- Expect: 0.292893 -- Actual: 0.292893
+ 7Loop-Count: 6 -- Expect: 0.412215 -- Actual: 0.412215
+ 7Loop-Count: 7 -- Expect: 0.546009 -- Actual: 0.546009
+ 7Loop-Count: 8 -- Expect: 0.690983 -- Actual: 0.690983
+ 7Loop-Count: 9 -- Expect: 0.843566 -- Actual: 0.843566
+ 8Loop-Count: 10 -- Expect: 1.000000 -- Actual: 1.000000
