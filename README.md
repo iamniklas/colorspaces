@@ -1,8 +1,8 @@
 # Interpolation
 
-[![](https://jitpack.io/v/iamniklas/colorspaces.svg)](https://jitpack.io/#iamniklas/colorspaces)
+[![](https://jitpack.io/v/iamniklas/Colorspaces.svg)](https://jitpack.io/#iamniklas/Colorspaces)
 
-[https://jitpack.io/#iamniklas/colorspaces](https://jitpack.io/#iamniklas/colorspaces)
+[https://jitpack.io/#iamniklas/Colorspaces](https://jitpack.io/#iamniklas/Colorspaces)
 
 Gradle
 
@@ -14,7 +14,7 @@ To install the library add:
         maven { url "https://jitpack.io" }
    }
    dependencies {
-         implementation 'com.github.iamniklas:colorspaces:[VERSION]'
+         implementation 'com.github.iamniklas:Colorspaces:[VERSION]'
    }
    ```  
 
