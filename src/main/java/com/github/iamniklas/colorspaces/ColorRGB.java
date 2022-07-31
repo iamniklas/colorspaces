@@ -6,7 +6,7 @@ public class ColorRGB implements ColorConverters {
     public static final ColorRGB WHITE50 =      new ColorRGB(128,128,128);
     public static final ColorRGB RED =          new ColorRGB(255,0,0);
     public static final ColorRGB ORANGE =       new ColorRGB(255,128,0);
-    public static final ColorRGB YELLOW =       new ColorRGB(255,255,255);
+    public static final ColorRGB YELLOW =       new ColorRGB(255,255,0);
     public static final ColorRGB LIGHT_GREEN =  new ColorRGB(128,255,0);
     public static final ColorRGB GREEN =        new ColorRGB(0,255,0);
     public static final ColorRGB LIME_GREEN =   new ColorRGB(0,255,128);
