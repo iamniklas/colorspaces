@@ -17,20 +17,45 @@ public class ColorRGB implements ColorConverters {
     public static final ColorRGB PINK =         new ColorRGB(255,0,255);
     public static final ColorRGB MAGENTA =      new ColorRGB(255,0,128);
 
-    public int r;
-    public int g;
-    public int b;
+    private int r;
+    private int g;
+    private int b;
 
     public ColorRGB(int _r, int _g, int _b) {
+        if(!RangeCheck.inRange(_r, 0, 255)) { throw new IllegalArgumentException("ColorRGB: r value out of range: " + _r); }
+        if(!RangeCheck.inRange(_g, 0, 255)) { throw new IllegalArgumentException("ColorRGB: g value out of range: " + _g); }
+        if(!RangeCheck.inRange(_b, 0, 255)) { throw new IllegalArgumentException("ColorRGB: b value out of range: " + _b); }
         r = _r;
         g = _g;
         b = _b;
     }
 
     public ColorRGB(ColorRGB _color) {
+        if(!RangeCheck.inRange(_color.getR(), 0, 255)) { throw new IllegalArgumentException("ColorRGB: r value out of range: " + _color.getR()); }
+        if(!RangeCheck.inRange(_color.getG(), 0, 255)) { throw new IllegalArgumentException("ColorRGB: g value out of range: " + _color.getG()); }
+        if(!RangeCheck.inRange(_color.getB(), 0, 255)) { throw new IllegalArgumentException("ColorRGB: b value out of range: " + _color.getB()); }
         r = _color.r;
         g = _color.g;
         b = _color.b;
+    }
+
+    public int getR() { return r; }
+    public int getG() { return g; }
+    public int getB() { return b; }
+
+    public void setR(int r) {
+        if(!RangeCheck.inRange(r, 0, 255)) { throw new IllegalArgumentException("ColorRGB: r value out of range: " + r); }
+        this.r = r;
+    }
+
+    public void setG(int g) {
+        if(!RangeCheck.inRange(g, 0, 255)) { throw new IllegalArgumentException("ColorRGB: g value out of range: " + g); }
+        this.g = g;
+    }
+
+    public void setB(int b) {
+        if(!RangeCheck.inRange(b, 0, 255)) { throw new IllegalArgumentException("ColorRGB: b value out of range: " + b); }
+        this.b = b;
     }
 
     public ColorRGB filter(ColorChannel _channel) {
@@ -44,6 +69,7 @@ public class ColorRGB implements ColorConverters {
     }
 
     public ColorRGB overrideChannel(ColorChannel _channel, int _value) {
+        if(!RangeCheck.inRange(_value, 0, 255)) { throw new IllegalArgumentException("Value must be between 0 and 255"); }
         switch (_channel) {
             case Red: return new ColorRGB(_value, g, b);
             case Green: return new ColorRGB(r, _value, b);
@@ -53,6 +79,7 @@ public class ColorRGB implements ColorConverters {
     }
 
     public ColorRGB cutHigh(ColorChannel _channel, int _value) {
+        if(!RangeCheck.inRange(_value, 0, 255)) { throw new IllegalArgumentException("Value must be between 0 and 255"); }
         switch (_channel) {
             case Red: return new ColorRGB(cutHigh(r, _value), g, b);
             case Green: return new ColorRGB(r, cutHigh(g, _value), b);
@@ -62,6 +89,7 @@ public class ColorRGB implements ColorConverters {
     }
 
     public ColorRGB cutLow(ColorChannel _channel, int _value) {
+        if(!RangeCheck.inRange(_value, 0, 255)) { throw new IllegalArgumentException("Value must be between 0 and 255"); }
         switch (_channel) {
             case Red: return new ColorRGB(cutLow(r, _value), g, b);
             case Green: return new ColorRGB(r, cutLow(g, _value), b);
@@ -77,9 +105,11 @@ public class ColorRGB implements ColorConverters {
     }
 
     public ColorRGB dim(float _percentage) {
+        if (!RangeCheck.inRange(_percentage, 0.0f, 100.0f)) { throw new IllegalArgumentException("Percentage must be between 0.0 and 100.0"); }
         return new ColorRGB((int)(r * _percentage), (int)(g * _percentage), (int)(b * _percentage));
     }
     public ColorRGB dim(float _r, float _g, float _b) {
+        if(!RangeCheck.inRange(_r, 0.0f, 100.0f) || !RangeCheck.inRange(_g, 0.0f, 100.0f) || !RangeCheck.inRange(_b, 0.0f, 100.0f)) { throw new IllegalArgumentException("Percentage must be between 0.0 and 100.0"); }
         return new ColorRGB((int)(r * _r), (int)(g * _g), (int)(b * _b));
     }
 
@@ -95,18 +125,18 @@ public class ColorRGB implements ColorConverters {
         float relativeG = g / 255.0f;
         float relativeB = b / 255.0f;
 
-        float cMax = Math.max(relativeR, Math.max(relativeG, relativeB));
+        float v = Math.max(relativeR, Math.max(relativeG, relativeB));
         float cMin = Math.min(relativeR, Math.min(relativeG, relativeB));
 
-        float cDelta = cMax - cMin;
+        float cDelta = v - cMin;
 
         //HSV: H
         float h = 0.0f;
-        if(cMax == relativeR) {
+        if(v == relativeR) {
             h = 60 * (((relativeG - relativeB) / cDelta) % 6);
-        } else if(cMax == relativeG) {
+        } else if(v == relativeG) {
             h = 60 * (((relativeB - relativeR) / cDelta) + 2);
-        } else if(cMax == relativeB) {
+        } else if(v == relativeB) {
             h = 60 * (((relativeR - relativeG) / cDelta) + 4);
         }
 
@@ -117,14 +147,9 @@ public class ColorRGB implements ColorConverters {
 
         //HSV: S
         float s = 0.0f;
-        if(cMax != 0.0f) {
-            s = cDelta / cMax;
+        if(v != 0.0f) {
+            s = cDelta / v;
         }
-
-
-        //HSV: V
-        float v = cMax;
-
 
         return new ColorHSV((int)h, s, v);
     }

@@ -17,14 +17,36 @@ public class ColorHSV implements ColorConverters {
     public static final ColorHSV PINK =         new ColorHSV(300,1.0f,1.0f);
     public static final ColorHSV MAGENTA =      new ColorHSV(330,1.0f,1.0f);
 
-    public int h;
-    public float s;
-    public float v;
+    private int h;
+    private float s;
+    private float v;
 
     public ColorHSV(int _h, float _s, float _v) {
+        if(!RangeCheck.inRange(_h, 0, 360)) { throw new IllegalArgumentException("Hue must be in the range of 0-360"); }
+        if(!RangeCheck.inRange(_s, 0.0f, 1.0f)) { throw new IllegalArgumentException("Saturation must be in the range of 0.0-1.0"); }
+        if(!RangeCheck.inRange(_v, 0.0f, 1.0f)) { throw new IllegalArgumentException("Value must be in the range of 0.0-1.0"); }
         h = _h;
         s = _s;
         v = _v;
+    }
+
+    public int getH() { return h; }
+    public float getS() { return s; }
+    public float getV() { return v; }
+
+    public void setH(int h) {
+        if(!RangeCheck.inRange(h, 0, 360)) { throw new IllegalArgumentException("Hue must be in the range of 0-360"); }
+        this.h = h;
+    }
+
+    public void setS(float s) {
+        if(!RangeCheck.inRange(s, 0.0f, 1.0f)) { throw new IllegalArgumentException("Saturation must be in the range of 0.0-1.0"); }
+        this.s = s;
+    }
+
+    public void setV(float v) {
+        if(!RangeCheck.inRange(v, 0.0f, 1.0f)) { throw new IllegalArgumentException("Value must be in the range of 0.0-1.0"); }
+        this.v = v;
     }
 
     @Override
