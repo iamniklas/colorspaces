@@ -1,4 +1,4 @@
-# Interpolation
+# Colorspaces
 
 [![](https://jitpack.io/v/iamniklas/Colorspaces.svg)](https://jitpack.io/#iamniklas/Colorspaces)
 
