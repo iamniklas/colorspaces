@@ -1,5 +1,9 @@
 package com.github.iamniklas.colorspaces;
 
+/**
+ * The ColorHSV class represents a color in the HSV (Hue, Saturation, Value) color space.
+ * It provides methods for color manipulation and conversion to other color spaces.
+ */
 public class ColorHSV implements ColorConverters {
     public static final ColorHSV BLACK =        new ColorHSV(0,0.0f,0.0f);
     public static final ColorHSV WHITE =        new ColorHSV(0,0.0f,1.0f);
@@ -21,6 +25,14 @@ public class ColorHSV implements ColorConverters {
     private float s;
     private float v;
 
+    /**
+     * Constructs a ColorHSV object with the specified hue, saturation, and value.
+     *
+     * @param _h the hue component (0-360)
+     * @param _s the saturation component (0.0-1.0)
+     * @param _v the value component (0.0-1.0)
+     * @throws IllegalArgumentException if any component is out of range
+     */
     public ColorHSV(int _h, float _s, float _v) {
         if(!RangeCheck.inRange(_h, 0, 360)) { throw new IllegalArgumentException("Hue must be in the range of 0-360"); }
         if(!RangeCheck.inRange(_s, 0.0f, 1.0f)) { throw new IllegalArgumentException("Saturation must be in the range of 0.0-1.0"); }
@@ -30,25 +42,30 @@ public class ColorHSV implements ColorConverters {
         v = _v;
     }
 
+    // Getter methods for color components
     public int getH() { return h; }
     public float getS() { return s; }
     public float getV() { return v; }
 
+    // Setter methods for color components with range checks
     public void setH(int h) {
         if(!RangeCheck.inRange(h, 0, 360)) { throw new IllegalArgumentException("Hue must be in the range of 0-360"); }
         this.h = h;
     }
-
     public void setS(float s) {
         if(!RangeCheck.inRange(s, 0.0f, 1.0f)) { throw new IllegalArgumentException("Saturation must be in the range of 0.0-1.0"); }
         this.s = s;
     }
-
     public void setV(float v) {
         if(!RangeCheck.inRange(v, 0.0f, 1.0f)) { throw new IllegalArgumentException("Value must be in the range of 0.0-1.0"); }
         this.v = v;
     }
 
+    /**
+     * Converts this color to a ColorRGB object.
+     *
+     * @return the ColorRGB representation of this color
+     */
     @Override
     public ColorRGB toRGB() {
         int v255 = (int)(v * 255.0f);
@@ -74,12 +91,27 @@ public class ColorHSV implements ColorConverters {
         }
     }
 
+    /**
+     * Converts this color to a ColorRGBA object.
+     *
+     * @return the ColorRGBA representation of this color
+     */
     @Override
     public ColorRGBA toRGBA() { return toRGB().toRGBA(); }
 
+    /**
+     * Converts this color to a ColorHSV object.
+     *
+     * @return this ColorHSV object
+     */
     @Override
     public ColorHSV toHSV() { return this; }
 
+    /**
+     * Returns a string representation of this color.
+     *
+     * @return a string representation of this color
+     */
     @Override
     public String toString() {
         return "ColorHSV{" + "h=" + h + ", s=" + s + ", v=" + v + '}';

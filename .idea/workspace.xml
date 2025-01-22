@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e78498bb-5fd8-4fc1-8653-b011d9d466e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/iamniklas/colorspaces/RangeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/iamniklas/colorspaces/ColorConverters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/iamniklas/colorspaces/ColorConverters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/iamniklas/colorspaces/ColorHSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/iamniklas/colorspaces/ColorHSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/iamniklas/colorspaces/ColorRGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/iamniklas/colorspaces/ColorRGB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/iamniklas/colorspaces/ColorRGBA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/iamniklas/colorspaces/ColorRGBA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/iamniklas/colorspaces/InterpolationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/iamniklas/colorspaces/RangeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/iamniklas/colorspaces/RangeCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +79,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projekte/IDEA/Colorspaces"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build Colorspaces.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projekte/IDEA/Colorspaces&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projekte\IDEA\LIO-Core\src\main\java\com\github\iamniklas\liocore\led\json\interpreter\strategies" />
